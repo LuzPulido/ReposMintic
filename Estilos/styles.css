@@ -50,9 +50,7 @@ p{
 .contenedorDivsFlex{
     border: 3px solid plum;
     display: flex;
-    margin: 20px;
-    flex-direction: column;
     height: 500px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
