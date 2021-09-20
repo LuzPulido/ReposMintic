@@ -1,14 +1,58 @@
 p{
     color: plum;
-    background:gray;
+    
 }
 #Parrafo2{
-    color: purple;
-    background:gray;
+    color: green;
+  
 }
 .parrafoverde{
-    color: green
+    color: green;
 }
 .parrafonegro{
     color: black
+}
+
+.textoGrandeNegrita{
+    font-size: x-large;
+    font-weight: 900;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+.imagenPequeña{
+    height: 400px;
+}
+.contenedorMargen{
+    
+    margin top: 40px;
+    margin right: 40px;
+    margin left: 40;
+    margin bottom: 40;
+    border: 3px solid green;
+    padding: 10px;
+}
+.divTest{
+    border: 1px solid blue;
+}
+.contenedorDivsGrid{
+    border: 3px solid plum;
+    display: grid;
+    grid-template-rows:  50px 50px;
+    grid-template-columns:  40% 40% 20%;
+    margin: 20px;
+}
+.divTest{
+    border: 1px solid red;
+    height: 20px;
+}
+
+.contenedorDivsFlex{
+    border: 3px solid plum;
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: space-around;
 }
