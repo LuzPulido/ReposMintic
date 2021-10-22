@@ -1,0 +1,92 @@
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.mainContainer>main{
+  height: 100%;
+}
+.mainContainer>footer{
+  background-color: rgb(241, 16, 16);
+  padding: 5px;
+}
+p{
+  color: plum;
+  
+}
+#Parrafo2{
+  color: green;
+
+}
+.parrafoverde{
+  color: green;
+}
+.parrafonegro{
+  color: black
+}
+
+.textoGrandeNegrita{
+  font-size: x-large;
+  font-weight: 900;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+}
+.imagenPequeña{
+  margin: 5px;
+  height: 170px;
+}
+
+.divTest{
+  border: 1px solid blue;
+}
+.contenedorDivsGrid{
+  border: 3px solid plum;
+  display: grid;
+  grid-template-rows:  50px 50px;
+  grid-template-columns:  40% 40% 20%;
+  margin: 20px;
+}
+.divTest{
+  border: 1px solid red;
+  height: 20px;
+}
+
+.contenedorDivsFlex{
+
+  border: 3px solid plum;
+  background-color: rgb(151, 168, 151);
+  display: flex;
+  margin: auto;
+  height: 200px;
+  width:600px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar{
+  background-color: rgb(145, 144, 144); 
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border:4px rgb(241, 206, 206);
+  box-shadow:2px hotpink;
+}
+.navbar>li{
+  display: flex;
+  align-content: space-between;
+}
+.Logo{
+  height: 50px;
+  width: 50px;
+}
+.ul{
+  list-style: none;
+}
+.button{
+  background-color: cadetblue;
+}
+.button:hover{
+  border:rgb(201, 22, 22) 2px;
+    
+}
